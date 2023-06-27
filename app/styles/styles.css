@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  list-style: none;
+  text-decoration: none;
+  border: none;
+}
+.params-cont {
+  display: flex;
+  align-items: baseline;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+.heading {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page-cont {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+.map-cont {
+  display: flex;
+  justify-content: center;
+}
+#map {
+  height: 650px;
+  width: 650px;
+  box-shadow: 1px 1px 7px 1px black;
+  border-radius: 10px;
+}
